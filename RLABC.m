@@ -1,6 +1,6 @@
-Matlab code relate to (1) "Reinforcement learning and approximate Bayesian computation for model selection and parameter calibration applied to a nonlinear dynamical system, Ritto, T.G., Beregi, S.,Barton, D.A.W., Mechanical Systems and Signal Processing, 2022, 181, 109485."
+%Matlab code relate to (1) "Reinforcement learning and approximate Bayesian computation for model selection and parameter calibration applied to a nonlinear dynamical system, Ritto, T.G., Beregi, S.,Barton, D.A.W., Mechanical Systems and Signal Processing, 2022, 181, 109485."
 
-Code applied to a simple spring problem:
+%Code applied to a simple spring problem:
 
 clear all
 close all
