@@ -1,6 +1,6 @@
-%Matlab code relate to (1) "Reinforcement learning and approximate Bayesian computation for model selection and parameter calibration applied to a nonlinear dynamical system, Ritto, T.G., Beregi, S.,Barton, D.A.W., Mechanical Systems and Signal Processing, 2022, 181, 109485."
+%Matlab code relate to (2) Reinforcement learning and approximate Bayesian computation (RL-ABC) for model selection and parameter calibration of time-varying systems, Ritto, T.G., Beregi, S., Barton, D.A.W., Mechanical Systems and Signal Processing, 2023, 200, 110458.
 
-%Code applied to a simple spring problem:
+%This is just the structure of the strategy; it cannot be run!!!
 
 clear all
 close all
