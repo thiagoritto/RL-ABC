@@ -28,10 +28,6 @@ In the context of digital twins and integration of physics-based models with mac
 
 RL-ABC was extended to time-varying systems (Ritto et al., 2023). To tackle slowly-varying systems and detect abrupt changes, new features are proposed. (1) The probability of sampling the worst model has now a lower bound; because it cannot disappear, once it might be useful in the future as the system evolves. (2) A memory term (sliding window) is introduced such that past data can be forgotten whilst updating the reward; which might be useful depending on how fast the system changes. (3) The algorithm detects a change in the system by monitoring the models’ acceptance; a significant drop in acceptance indicates a change. If the system changes the algorithm is reset: new parameter ranges are computed and the rewards are restarted.
 
+RLABC.m is a matlab code where one can run RL-ABC strategy (Ritto et al., 2022) to a simple spring problem.
 
-
-
-o---o---o---o---o---o---o---o---o---o---o---o---o---o---o---o---o---o---o---o---o---o---o---o---o---
-
-
-
+RLABC_time_varying.m is a matlab code that shows the structure of RL-ABC strategy for time varying systems (Ritto et al., 2023); it cannot be run!
